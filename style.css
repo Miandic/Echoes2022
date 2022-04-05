@@ -49,8 +49,7 @@ h2{
   width: 30%;
 }
 .logo_img{
-  display: inline-block;
-  width: 15%;
+  width: 100%;
 }
 .logo_img:hover{
   cursor: pointer;
@@ -103,4 +102,10 @@ h2{
   padding: 0.5% 2.5%;
   margin: 1.5% auto auto auto;
   margin-right: 0;
+}
+.box1{
+    width: 70%;
+}
+.box2{
+    width: 30%;
 }
