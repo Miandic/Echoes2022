@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="SHORTCUT ICON" href="img/mini_icon_2.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="utf-8">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <title>ЭХОС-2022</title>
+
+  </head>
+  <body>
+    <div class="central">
+      <header>
+        <img src="{{ url_for('static', filename='img/echoes_header_light.png') }}" alt="Echoes 2022" class="header_img">
+      </header>
+      <div class="main">
+        <div class="menu">
+          <ul class="menu_list">
+            <li onclick="location.href='/';">Главная</li>
+            <li onclick="location.href='/organizers';"> Организаторы </li>
+            <li onclick="location.href='/science_committee';"> Научный комитет</li>
+            <li onclick="location.href='/organizing_committee';"> Организационный комитет</li>
+            <li onclick="location.href='/programm';"> Программа </li>
+            <li onclick="location.href='/location';"> Место проведения </li>
+            <li onclick="location.href='/registration';"> Регистрация </li>
+            <li onclick="location.href='/arrangement_fee';"> Оргвзнос </li>
+            <li onclick="location.href='/abstract_preparation';"> Оформление тезисов </li>
+            <li onclick="location.href='/information_support';"> Информационная поддержка</li>
+            <li onclick="location.href='/key_dates';"> Важные даты </li>
+            <li onclick="location.href='/round_table';"> Круглый стол "Катализ для решения проблем энергетики и экологии" </li>
+            <li onclick="location.href='/residence';"> Проживание </li>
+            <li onclick="location.href='/post-tour';"> Пост-тур </li>
+            <li onclick="location.href='/contact';"> Контакты </li>
+          </ul>
+        </div>
+        <div class="info">
+            {% block content %}{% endblock %}
+        </div>
+      </div>
+    </div>
+    <div class="bg">
+
+    </div>
+  </body>
+</html>

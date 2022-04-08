@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Оформление тезисов</h2>
+<p>Тезисы на русском языке, экспертное заключение необходимо направить в электронном варианте в Оргкомитет ЭХОС-2022 не позднее 4 июля 2022 г. по электронной почте: ehos2022@mail.ru</p>
+<p>Объём тезисов — 1 страница печатного текста формата А4. При наборе тезисов использовать шрифт Times New Roman 12pt с одинарным интервалом. Все поля по 2 см. Красная строка — 1,25 см, выравнивание по ширине. Формат «doc», «docx».</p>
+<p>Заголовок печатается полужирным шрифтом по центру страницы. Фамилия И. О. авторов печатается под заголовком по центру страницы. ФИО докладчика подчёркивается.</p>
+<p>Аббревиатура названия института и его адрес располагаются под ФИО авторов и печатаются курсивом. На следующей строке печатается электронный адрес докладчика. Далее печатается текст тезисов.</p>
+<p>Благодарности указываются после основного текста тезисов курсивом:</p>
+<p><i>Работа выполнена при финансовой поддержке РФФИ (проект № 16-03-00000).</i></p>
+<p>Нумерация ссылок на литературу дается в квадратных скобках в порядке обращения в тексте, например [1]. Список литературы помещается после основного текста:</p>
+<p style="font-size: x-small;">[1] M.E. Rabanal, A. Varez, U. Amador, E.A. Dompablo, F.G. Alvarado // J. Mater. Process. Technol. 1999. V. 92–93. P. 529–533.</p>
+<br>
+<p>Файлы должны называться по фамилии автора доклада:</p>
+<ul>
+  <li>Тезисы  «IvanovNА_text.doc»</li>
+  <li>Согласие на обработку персональных данных «IvanovNА_agreement»</li>
+  <li>Экспертное заключение  «IvanovNА_expert»</li>
+</ul>
+<p><a href="{{ url_for('static', filename='tezis_template.docx') }}" style="text-decoration: underline;
+color: blue;">Скачать шаблон</a></p>
+<p class="fix">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+{% endblock %}

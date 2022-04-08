@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Организаторы</h2>
+<div class="wrapper" style="align-items: center;">
+    <div class="box1">
+        <p>Южно-Российский государственный политехнический университет (НПИ) имени М.И. Платова</p>
+    </div>
+    <div class="box2">
+        <img src="{{ url_for('static', filename='img/NPI.png') }}" alt="ЮРГПУ (НПИ)" class="logo_img" onclick="location.href='https://www.npi-tu.ru/';">
+    </div>
+    <div class="box1">
+        <p>Институт Проблем Химической Физики (ИПХФ) Ран</p>
+    </div>
+    <div class="box2">
+        <img src="{{ url_for('static', filename='img/IPCP.jpg') }}" alt="ИПХФ РАН" class="logo_img" onclick="location.href='https://www.icp.ac.ru/ru/';">
+    </div>
+    <div class="box1">
+        <p>Институт органической химии им. Н.Д.Зелинского РАН</p>
+    </div>
+    <div class="box2">
+        <img src="{{ url_for('static', filename='img/IH.png') }}" alt="Институт органической химии им. Н.Д.Зелинского РАН" class="logo_img" onclick="location.href='https://zioc.ru/';">
+    </div>
+    <div class="box1">
+        <p>Центр компетенций НТИ при ИПХФ РАН «Новые и мобильные источники энергии»</p>
+    </div>
+    <div class="box2">
+        <img src="{{ url_for('static', filename='img/NPenergy.jpg') }}" alt="Центр компетенций НТИ при ИПХФ РАН" style="width: 180%" onclick="location.href='https://npenergy.ru/';">
+    </div>
+    <div class="box1">
+        <p>НП ИТЦ «ИнТех-Дон»</p>
+    </div>
+    <div class="box2">
+        <img src="{{ url_for('static', filename='img/intehdon.jpg') }}" alt="Интехдон" style="width: 220%" onclick="location.href='https://intehdon.ru/';">
+    </div>
+</div>
+{% endblock %}
