@@ -9,7 +9,7 @@ body{
   margin: 0;
   padding: 0;
   display: inline-block;
-  background-color: #1f9fd1;
+  background-color: #dff6ff;
   height: 100%;
 }
 a{
@@ -87,7 +87,7 @@ h2{
   margin-top: 0;
   margin-bottom: 0;
   padding: 0 0.5% 0 0.5%;
-  background-color: #3b3b3b;
+  background-color: #ffbb97;
 }
 .header_img{
   width: 100%;
