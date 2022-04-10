@@ -1,0 +1,4 @@
+__pycache__/
+myprojectenv/
+wsgi.py
+echoes2022.ini
