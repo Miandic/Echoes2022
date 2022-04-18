@@ -58,9 +58,9 @@ def keydates(name = None):
     return render_template('10keydates.html', name=name)
 
 
-@app.route('/round_table')
+@app.route('/Ilyin')
 def rt(name = None):
-    return render_template('11roundtable.html', name=name)
+    return render_template('11ilyin.html', name=name)
 
 
 @app.route('/residence')
