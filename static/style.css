@@ -110,3 +110,90 @@ h2{
 .box2{
     width: 30%;
 }
+
+
+.programm {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.temp-programm {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.programm-content {
+  font-size: 0;
+  margin: auto;
+}
+
+.programm-header {
+  text-align: center;
+  width: 95%;
+
+  font-size: 20px;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.programm-stabilizer {
+  display: block;
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.programm-content-header {
+  margin: auto;
+  padding: 3px;
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+
+  font-size: 16px;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.programm-content-time {
+  display: inline-block;
+  margin: 0 auto 0 0;
+  padding: 3px;
+  width: 15%;
+  height: 10vh;
+  border: 1px solid black;
+  border-left: 2px solid black;
+
+  font-size: 16px;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.programm-content-element {
+  display: inline-block;
+  margin: 0;
+  padding: 3px;
+  width: 85%;
+  height: 10vh;
+  border: 1px solid black;
+  border-right: 2px solid black;
+
+  font-size: 16px;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
